@@ -1,72 +1,36 @@
-## Bitirme projesi
+<h2 align="center">Renova-IT Consultancy Support Application</h2>
 
-### Başvuru / ticket yönetim sistemi
+<h3 align="center">Graduation project for 
+  <a href="https://github.com/kodin21" alt="Kodin Bootcamp">Innovance Bootcamp</a>
+  - 
+  <a href="https://patika.dev" alt="Patika.dev">Patika.dev ❤️ </a>  
+</h3>
 
-#### Genel Açıklama
+<h6 align="right"> Built with React and :blue_heart: </h6>
 
-Uygulamamız herkese açık bir başvuru formunun son kullanıcı tarafından doldurulması ile başlıyor.
-Formu dolduran kullanıcıya başvurusunu takip edebilecegi bir kod veriliyor. Kullanıcı başvuru durumu sayfasından bu kod ile başvurusunun çözülüp çözülemedigini kontrol edebiliyor.
+<div align="center">
+  <img src="https://img.shields.io/badge/coverage-93%25-brightgreen" alt="coverage" />
+  <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="build" />
+  <img src="https://img.shields.io/badge/test-passing-brightgreen" alt="test" />
+  <img src="https://img.shields.io/badge/license-MIT-blue" alt="license" />
+</div>
 
-Kullanıcı adı ve şifre ile girilebilen bir ekrandan da yetkili kullanıcılar gelen başvuruları görüntüleyebiliyor cevaplanmamış başvurulara cevap yazıp durumunu çözüldü / iptal edildi / bekliyor vb gibi güncelleyebiliyor. Gerekirse eski kayıtlara ulaşabiliyor.
+<h3 align="center"><a href="https://renova-it.netlify.app">Go to App!</a></h3>
 
-#### Detaylı Açıklama
+<h2 align="center">Tech Stack</h2>
 
-##### Routes / Paths
+<div align="center">
+  <img src="https://i.ibb.co/wSpMcwx/Renova.png" alt="Renova" border="0" />
+</div>
 
-- /basvuru-olustur (default)
+## Credentials
 
-  - Public endpoint.
-  - Başvuru formunu herhangi bir kullanıcının doldurmasına imkan verir.
-  - Başvuru formunda [Ad, Soyad, Yaş, TC, Başvuru Nedeni, Adres Bilgisi, Fotograflar/Ekler, Gonder] butonu yer alır.
+- Admin: { username: kodluyoruz , password: **\*\*\*\***109 }
+- User : { username: kodluyoruz-user , password: **\*\*\*\***109 }
 
-- /basvuru-basarili (Basvuru formu doldurulduktan sonra gelen sayfa)
+<h2 align="center">Screens</h2>
 
-  - Ekranda bir teşekkür mesajı yer alır ve kullanıcıya başvuru detayları ile birlikte başvuru kodu verilir.
-
-- /basvuru-sorgula
-
-  - Ekranda başvuru kodu girilebilen bir input ve sorgula butonu vardır.
-
-- /basvuru/{basvuruNo}
-
-  - Ekranda başvuru varsa bilgileri, son durumu ve verilen cevap(lar) yer alır.
-  - Başvuru numarası hatalıysa 404(bulunamadı) mesajı çıkar.
-
-- /admin
-
-  - Ekranda kullanıcı giriş formu vardır. (Rahat test edebilmemiz için u:kodluyoruz, p:bootcamp109 bilgileri ile giriş yapabilmeliyim.)
-
-- /admin/basvuru-listesi
-
-  - Başarıli giriş sonrası bekleyen (çözülmemiş/cevaplanmamış) başvuruların listesi yer alır ve basit bilgiler sunar. (Başvuru yapan, tarih)
-  - Başvuru listesinde her elemenda başvuruyu görüntüle butonu vardır.
-
-- /admin/basvuru/{basvuruNo}
-  - Başvurunun durumu güncellenebilir ve başvuruya cevap yazılabilir.
-  - Burada yazılan cevap son kullanıci tarafından basvuru/{basvuruNo} kısmından görüntülenebilmelidir.
-
-##### Gereklilikler
-
-- [ ] React hooks
-- [ ] Router (react-router/ reach router / etc)
-- [ ] Context API
-- [ ] Form management library (react-hook-form(önerilen) / formik / etc)
-- [ ] Validation library (yup(önerilen), joi, etc)
-- [ ] Tests (Unit test zorunlu, e2e opsiyonel)
-- [ ] Uygulamanız kesinlikle bir servise deploy edilmiş olacak ve public link readme içinde yer alacak (netlify, vercel gibi)
-- [ ] Open source
-- [ ] Eslint
-
-##### Dikkat edelim
-
-- [ ] Tüm formlarda gerekli validasyonlar olsun.
-- [ ] Back-end yazmak zorunda degilsiniz, back-end olarak firebase ya da mock bir api kullanabilirsiniz.
-- [ ] Elinizden gelen en iyi şekilde seperation of concerns'e dikkat ederek yazın.
-- [ ] Admin paneline u:kodluyoruz, p:bootcamp109 bilgileri ile giriş yapabilmeliyim.
-
-##### Bonus (Zorunlu degil, deneysel ozellikler)
-
-- [ ] Typescript
-- [ ] Service worker ile offline render destegi
-- [ ] Mobil uyumlu guzel bir tasarim
-- [ ] Kullanilabilir UX
+<div align="center">
+  <img src="https://i.ibb.co/MPKyHph/renova-home.png" alt="renova-home" border="0" />
+  <img src="https://i.ibb.co/zsc5Dyn/renova-admin.png" alt="renova-admin" border="0" />
+</div>
