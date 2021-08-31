@@ -1,0 +1,27 @@
+.SupportInfoBox {
+  min-height: 250px;
+  max-height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 0.5px solid #dcdcdc;
+}
+
+.SupportInfoTitle {
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.SupportInfoDesc {
+  margin-top: 20px;
+}
+
+.SupportInfoLink {
+  text-decoration: none;
+  color: #0f62fe;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,38 @@
+.Heading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.StatusInfo {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+svg.Checkmark {
+  fill: #42be65;
+  height: 84px;
+  width: 84px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.RequestInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.RequestId {
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.RequestIdInfo {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

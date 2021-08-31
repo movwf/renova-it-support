@@ -1,0 +1,34 @@
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Username {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.Password {
+  width: 300px;
+}
+
+.LoginButtons {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+.LoginMessage {
+  margin-top: 15px;
+}
+
+.ErrorMessage {
+  color: red;
+}
+
+.SuccessMessage {
+  color: green;
+}

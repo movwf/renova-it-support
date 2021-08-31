@@ -1,0 +1,19 @@
+.QuestionTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.Title {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.Description {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}

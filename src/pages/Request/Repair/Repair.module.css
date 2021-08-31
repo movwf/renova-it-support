@@ -1,0 +1,26 @@
+.ProgressBar {
+  height: 60px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.ProgressBar::-webkit-scrollbar {
+  display: none;
+}
+
+.FormPages {
+  margin-top: 20px;
+}
+
+.ButtonGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Button {
+  height: 64px;
+}

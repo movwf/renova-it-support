@@ -1,0 +1,43 @@
+.StripMenu {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.StripMenuItem {
+  height: 60px;
+  width: 120px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.StripMenuItem:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.StripMenuItemIcon {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.StripMenuItemLabel {
+  max-width: 65px;
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+}

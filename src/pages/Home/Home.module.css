@@ -1,0 +1,48 @@
+.Banner {
+  height: 350px;
+  background-image: url("https://www.bullguard.com/getmedia/d7ce8a2d-599d-4cfd-84b1-08a0f1664355/tech-support-scam.jpg?width=1269&height=660&ext=.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 50% 10%;
+}
+
+.BannerDrop {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.GreetHeading {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.CheckCase {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CheckCaseText {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.CheckCaseText a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #0f62fe;
+}
+
+.CheckCaseText a:hover {
+  color: #0c3d97;
+}

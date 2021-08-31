@@ -1,0 +1,41 @@
+.CheckRequest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.RequestIDHeading {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.RequestIDDescription {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.RequestIDForm {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.RequestIDInput {
+  width: 360px;
+}
+
+.RequestIDOr {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.LoginButton {
+  margin-top: 30px;
+}
+
+.LoginDescription {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 30px;
+}
