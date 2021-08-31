@@ -1,9 +1,5 @@
 {
-  "extends": [
-    "airbnb",
-    "airbnb/hooks",
-    "prettier"
-  ],
+  "extends": ["airbnb", "airbnb/hooks", "prettier"],
   "env": {
     "browser": true,
     "commonjs": true,
@@ -17,20 +13,28 @@
     "allowImportExportEverywhere": true
   },
   "rules": {
-    "jsx-a11y/href-no-hash": [
-      "off"
-    ],
-    "react/jsx-filename-extension": [
-      "warn",
+    "jsx-a11y/href-no-hash": ["off"],
+    "jsx-a11y/anchor-is-valid": 0,
+    "no-console": "off",
+    "no-alert": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
       {
-        "extensions": [
-          ".js",
-          ".jsx",
-          ".ts",
-          ".tsx"
-        ]
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
       }
     ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ],
+    "import/no-extraneous-dependencies": 0,
+    "react/jsx-props-no-spreading": 0,
     "react/prop-types": 0,
     "max-len": [
       "warn",
@@ -46,5 +50,24 @@
         "ignoreRegExpLiterals": true
       }
     ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
+  "globals": {
+    "React": true,
+    "google": true,
+    "mount": true,
+    "mountWithRouter": true,
+    "shallow": true,
+    "shallowWithRouter": true,
+    "context": true,
+    "expect": true,
+    "jsdom": true,
+    "JSX": true
   }
 }
