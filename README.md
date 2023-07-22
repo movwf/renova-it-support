@@ -1,11 +1,5 @@
 <h2 align="center">Renova-IT Consultancy Support Application</h2>
 
-<h3 align="center">Graduation project for 
-  <a href="https://github.com/kodin21" alt="Kodin Bootcamp">Innovance Bootcamp</a>
-  - 
-  <a href="https://patika.dev" alt="Patika.dev">Patika.dev ❤️ </a>  
-</h3>
-
 <h6 align="right"> Built with React and :blue_heart: </h6>
 
 <div align="center">
@@ -25,8 +19,8 @@
 
 ## Credentials
 
-- Admin: { username: kodluyoruz , password: **\*\*\*\***109 }
-- User : { username: kodluyoruz-user , password: **\*\*\*\***109 }
+- Admin: { username: admin , password: **\*\*\*\***109 }
+- User : { username: user , password: **\*\*\*\***109 }
 
 <h2 align="center">Screens</h2>
 
